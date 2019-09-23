@@ -1,0 +1,25 @@
+{
+  "name": "techtests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bankSpec.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fentonhaslam/Techtests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fentonhaslam/Techtests/issues"
+  },
+  "homepage": "https://github.com/Fentonhaslam/Techtests#readme"
+}
