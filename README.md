@@ -32,3 +32,7 @@ I want to add a number to my balance
 As a user
 So I can withdraw money from my bank
 I want to withdraw money from my available balance
+
+As a user
+So I can view my statement
+I'd like to see view all my transactions
