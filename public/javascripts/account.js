@@ -2,7 +2,7 @@ class Account {
 
     constructor() {
         this._balance = 0;
-        this.transaction = [];
+        this.transactions = [];
     }
 
     get balance() {
@@ -15,11 +15,11 @@ class Account {
     }
 
     credit(amount) {
-        this.transaction.push({
-            "Date": Date(),
-            "Credit": amount,
-            "Debit": "",
-            'Balance': this._balance
+        this.transactions.push({
+            Date: Date(),
+            Credit: amount,
+            Debit: "",
+            Balance: this._balance
         })
     }
 
@@ -33,16 +33,12 @@ class Account {
     }
 
     debit(amount) {
-        this.transaction.push({
-            "Date": Date(),
-            "Credit": "",
-            "Debit": amount,
-            'Balance': this._balance
+        this.transactions.push({
+            Date: Date(),
+            Credit: "",
+            Debit: amount,
+            Balance: this._balance
         })
-    }
-    get statement() {
-        var transactions = this.transaction.toString()
-        return JSON.stringify(transactions);
     }
 }
 

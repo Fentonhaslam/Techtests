@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1569341282739" clover="3.2.0">
+  <project timestamp="1569341282739" name="All files">
+    <metrics statements="15" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="6" elements="24" coveredelements="20" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
+    <file name="account.js" path="/Users/fentonhaslam/Projects/Techtests/public/javascripts/account.js">
+      <metrics statements="15" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="6"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="5" count="6" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="27" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="2" type="stmt"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="36" count="2" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="46" count="0" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
