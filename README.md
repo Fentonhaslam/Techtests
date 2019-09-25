@@ -13,10 +13,43 @@ Data can be kept in memory (it doesn't need to be stored to a database or anythi
 
 <strong>Acceptance criteria</strong><br>
 
-Given a client makes a deposit of 1000 on 10-01-2012
-And a deposit of 2000 on 13-01-2012
-And a withdrawal of 500 on 14-01-2012
-When she prints her bank statement
+- Given a client makes a deposit of 1000 on 10-01-2012
+- And a deposit of 2000 on 13-01-2012
+- And a withdrawal of 500 on 14-01-2012
+- When she prints her bank statement
+
+##Installation
+
+Download the repo to your projects file : 
+```
+git clone https://github.com/Fentonhaslam/Techtests.git
+```
+Move to the new directory and install npm
+
+## How to run
+First open Node
+```
+node
+```
+```
+const Account = require('../public/javascripts/account')
+```
+```
+account = new Account();
+```
+```
+account.deposit(50);
+```
+```
+account.withdraw(20);
+```
+```
+account.printStatement();
+```
+Gives the output on the console: 
+
+![Screenshot](./Screenshot.png)
+
 
 
 <strong> User Stories </strong><br>
@@ -36,4 +69,3 @@ I want to withdraw money from my available balance
 As a user
 So I can view my statement
 I'd like to see view all my transactions
-

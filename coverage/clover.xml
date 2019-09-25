@@ -1,24 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1569341282739" clover="3.2.0">
-  <project timestamp="1569341282739" name="All files">
-    <metrics statements="15" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="6" elements="24" coveredelements="20" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
+<coverage generated="1569426097222" clover="3.2.0">
+  <project timestamp="1569426097222" name="All files">
+    <metrics statements="47" coveredstatements="47" conditionals="7" coveredconditionals="6" methods="15" coveredmethods="15" elements="69" coveredelements="68" complexity="0" loc="47" ncloc="47" packages="1" files="4" classes="4"/>
     <file name="account.js" path="/Users/fentonhaslam/Projects/Techtests/public/javascripts/account.js">
-      <metrics statements="15" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="6"/>
-      <line num="4" count="6" type="stmt"/>
-      <line num="5" count="6" type="stmt"/>
-      <line num="9" count="3" type="stmt"/>
+      <metrics statements="23" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="7"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="19" count="3" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="25" count="3" type="stmt"/>
+      <line num="26" count="3" type="stmt"/>
+      <line num="30" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+    </file>
+    <file name="day.js" path="/Users/fentonhaslam/Projects/Techtests/public/javascripts/day.js">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
       <line num="13" count="5" type="stmt"/>
-      <line num="14" count="5" type="stmt"/>
-      <line num="18" count="5" type="stmt"/>
-      <line num="27" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="30" count="2" type="stmt"/>
-      <line num="31" count="2" type="stmt"/>
-      <line num="36" count="2" type="stmt"/>
-      <line num="44" count="0" type="stmt"/>
-      <line num="45" count="0" type="stmt"/>
-      <line num="46" count="0" type="stmt"/>
-      <line num="51" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+    </file>
+    <file name="statement.js" path="/Users/fentonhaslam/Projects/Techtests/public/javascripts/statement.js">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+    </file>
+    <file name="transaction.js" path="/Users/fentonhaslam/Projects/Techtests/public/javascripts/transaction.js">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
