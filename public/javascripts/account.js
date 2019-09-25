@@ -1,6 +1,9 @@
+var Statement = require("./statement")
+
 class Account {
 
-    constructor() {
+    constructor(statement = new Statement()) {
+        this._statement = statement
         this._balance = 0;
         this.transactions = [];
     }

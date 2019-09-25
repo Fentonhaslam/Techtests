@@ -10,12 +10,14 @@ describe('Statement', () => {
             const spy = jest.spyOn(console, 'log')
 
             statement.message([{
-                date: '14/01/2012',
+                date: '14/01/2018',
                 credit: 50,
                 debit: 0,
                 balance: 50
             }])
+
             expect(spy.mock.calls[0][0]).toEqual('Date || Credit || Debit || Balance')
+            expect(spy.mock.calls[1][0]).toEqual("14/01/2018 || 50.00 || || 50.00")
         })
 
     })
