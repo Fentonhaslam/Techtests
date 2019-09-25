@@ -2,9 +2,12 @@ const Account = require('../public/javascripts/account');
 
 describe('Account', () => {
     var account
+    var mockStatement
 
     beforeEach(() => {
-        account = new Account;
+        mockStatement = jest.fn()
+        mockStatement.message = jest.fn()
+        account = new Account(mockStatement);
     })
 
     test('views the total amount in an account', () => {
@@ -27,16 +30,10 @@ describe('Account', () => {
         expect(account.withdraw(51)).toThrowErrorMatchingSnapshot("Insufficient funds");
     });
 
-    test("saves a credit transaction in an array", () => {
-        account.deposit(50);
-        expect(account.transactions[0]).toHaveProperty("Balance", 50)
-        expect(account.transactions[0]).toHaveProperty("Credit", 50)
-    })
-
-    test("saves a debit transaction in an array", () => {
-        account.deposit(50);
-        account.withdraw(40);
-        expect(account.transactions[1]).toHaveProperty('Debit', 40)
-        console.log(account.transaction)
+    describe("printStatement", () => {
+        test('tests if statement is printed', () => {
+            account.printStatement()
+            expect(account._statement.message).toHaveBeenCalled()
+        })
     })
 });
