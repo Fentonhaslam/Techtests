@@ -10,8 +10,8 @@ describe('Day', () => {
     describe('retrieveDate', () => {
         test('returns a string indicating the current date', () => {
             console.log(MockDate)
-            ModeDate.set('2015-2-15')
-            expect(day.retrieveDate()).toBe('15/02/2015')
+            MockDate.set('2015-2-7')
+            expect(day.retrieveDate()).toBe('7/2/2015')
         })
     })
 })
